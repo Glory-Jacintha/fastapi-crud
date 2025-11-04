@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+
+# Virtual environments
+venv/
+env/
+.myfastapiweb/
+
+# Environment files
+*.env
+.env.*
+
+# Docker
+*.log
+*.pid
+*.seed
+*.bak
+*.swp
+*.tmp
+*~
+# Docker build artifacts
+**/.dockerignore
+**/Dockerfile~
+**/docker-compose.override.yml
+
+# Byte-compiled / temporary files
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.tmp
+*.bak
+
+# VSCode / IDEs
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Test cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Migrations / database (if added later)
+*.db
+*.sqlite3
+
+# Node stuff (if frontend later added)
+node_modules/
