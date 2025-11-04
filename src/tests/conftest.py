@@ -1,5 +1,5 @@
 import pytest
-from stralette.testclient import TestClient
+from starlette.testclient import TestClient
 
 from app.main import app
 
@@ -7,4 +7,3 @@ from app.main import app
 def test_app():
     client = TestClient(app)
     yield client #testing happens here
-
