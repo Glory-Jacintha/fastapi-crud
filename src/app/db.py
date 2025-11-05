@@ -1,5 +1,7 @@
 import os
 
+from sqlalchemy import func
+
 from sqlalchemy import (
     Column,
     DateTime,
@@ -9,7 +11,6 @@ from sqlalchemy import (
     Table,
     create_engine
 )
-from sqlalchemy.sql import func
 
 from databases import Database
 
